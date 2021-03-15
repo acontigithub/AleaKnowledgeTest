@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">   
+        
+    <bean id="aleaKnowledgeTest" class="com.aconti.aleaknowledgetest.controller.AleaKnowledgeTest"/>
+    <bean id="height" class="com.aconti.aleaknowledgetest.controller.HeightController"/>
+    <bean id="weight" class="com.aconti.aleaknowledgetest.controller.WeightController"/>
+    <bean id="baseExperience" class="com.aconti.aleaknowledgetest.controller.BaseExperienceController"/>
+</beans>
